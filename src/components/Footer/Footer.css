@@ -1,0 +1,55 @@
+@media (min-width:900px){
+.card-img{
+    width: 30px;
+    margin: auto auto;
+}
+
+.card{
+    background: transparent;
+    border: none;
+}
+
+.card-1{
+    margin-right: -60px;
+}
+
+.card-3{
+    margin-left: -60px;
+}
+
+.middle-card{
+    border-left:solid;
+    border-right:solid;
+}
+
+.scroll{
+    margin-top: -10px;
+    
+}
+
+.scroll-down{
+    margin-top: 10px;
+    margin-right: 5px;
+    font-family: 'Indie Flower', cursive;
+        color: black;
+        font-size: 20px;
+}
+}
+
+@media (max-width:480px){
+    .card-img{
+        width: 30px;
+        margin: auto auto;
+    }
+    
+    .card{
+        background: transparent;
+        border: none;
+        margin-bottom: 30px;
+    }
+
+    .scroll{
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+}

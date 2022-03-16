@@ -1,0 +1,79 @@
+@media (min-width:900px){
+    .lego{
+        width:300px;
+        margin-top: 100px;
+        margin-left: -100px;
+    }
+
+    .lego-2{
+        width:300px;
+        transform: scaleX(-1);
+        margin-top: 100px;
+        margin-right: -100px;
+    }
+
+    .description{
+        font-size: 100px;
+        width: 700px;
+        margin-left: -150px;
+    }
+
+    .buy{
+        font-family: 'Indie Flower', cursive;
+        font-weight: bolder;
+    }
+
+    .create{
+        font-size: 20px;
+        font-style: italic;
+        margin-top: 40px;
+    }
+
+    .become{
+        background-color: black;
+        color: #C6B68F;
+        padding: 10px;
+        border: none;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:480px){
+    .lego{
+        width:300px;
+        margin-top: 50px;
+    }
+
+    .lego-2{
+        width:300px;
+        transform: scaleX(-1);
+        margin-top: 50px;
+    }
+
+    .description{
+        font-size: 50px;
+        width: 90%;
+        text-align: center;
+        margin: auto auto;
+        margin-top: 50px;
+    }
+
+    .buy{
+        font-family: 'Indie Flower', cursive;
+        font-weight: bolder;
+    }
+
+    .create{
+        font-size: 20px;
+        font-style: italic;
+        margin-top: 40px;
+    }
+
+    .become{
+        background-color: black;
+        color: #C6B68F;
+        padding: 10px;
+        border: none;
+        margin-top: 10px;
+    }
+}
